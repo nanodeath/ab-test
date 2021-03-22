@@ -64,7 +64,7 @@ fun main() {
     )
 
     println("What we're looking for is how the treatments change with the dial up.")
-    println("Anything that was T1 in V1 should still be in T1 in V2.")
+    println("Anything that was T1 in V1a should still be in T1 in V1b.")
     val words = """
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -87,7 +87,7 @@ fun main() {
 Sample output:
 
 What we're looking for is how the treatments change with the dial up.
-Anything that was T1 in V1 should still be in T1 in V2.
+Anything that was T1 in V1a should still be in T1 in V1b.
 V1a: Identity Lorem got TEST:C
 V1b: Identity Lorem got TEST:T1
 ---
